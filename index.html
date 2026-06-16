@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Carter — Freelance Web Developer & Designer. I build fast, accessible, and beautiful websites for businesses and creators." />
+  <meta name="theme-color" content="#6c5ce7" />
+  <title>Alex Carter — Freelance Web Developer</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Alex Carter — Freelance Web Developer" />
+  <meta property="og:description" content="I build fast, accessible, and beautiful websites for businesses and creators." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="logo" aria-label="Alex Carter home">
+        <span class="logo-mark">AC</span>
+        <span class="logo-text">Alex Carter</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Hire Me</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow reveal">👋 Available for freelance work</p>
+          <h1 class="hero-title reveal">
+            I design &amp; build <span class="gradient-text">websites that convert</span>
+          </h1>
+          <p class="hero-sub reveal">
+            Freelance web developer helping startups and small businesses launch
+            fast, accessible, and conversion-focused websites — from first sketch
+            to final deploy.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Let's Talk →</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="stat">
+              <span class="stat-value"><span class="stat-num" data-count="80">0</span><span class="stat-plus">+</span></span>
+              <span class="stat-label">Projects shipped</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value"><span class="stat-num" data-count="40">0</span><span class="stat-plus">+</span></span>
+              <span class="stat-label">Happy clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value"><span class="stat-num" data-count="6">0</span><span class="stat-plus">+</span></span>
+              <span class="stat-label">Years experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card glass">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <pre class="code-block"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Alex Carter'</span>,
+  <span class="c-prop">role</span>: <span class="c-str">'Web Freelancer'</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">'React'</span>, <span class="c-str">'Node'</span>, <span class="c-str">'CSS'</span>],
+  <span class="c-prop">available</span>: <span class="c-key">true</span>,
+  <span class="c-prop">coffee</span>: <span class="c-num">Infinity</span>,
+};</code></pre>
+          </div>
+          <div class="floating-badge badge-1 glass">⚡ Fast load times</div>
+          <div class="floating-badge badge-2 glass">♿ Accessible</div>
+          <div class="floating-badge badge-3 glass">📱 Responsive</div>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span><span>TypeScript</span><span>Figma</span><span>Tailwind</span><span>WordPress</span>
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span><span>TypeScript</span><span>Figma</span><span>Tailwind</span><span>WordPress</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="avatar-wrap">
+            <div class="avatar" aria-hidden="true">AC</div>
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <p class="section-eyebrow">About me</p>
+          <h2 class="section-title">A developer who actually cares about your business goals</h2>
+          <p>
+            I'm Alex — a freelance web developer and designer with 6+ years of
+            experience turning ideas into polished digital products. I work
+            closely with founders, marketers, and agencies to ship websites
+            that look great and perform even better.
+          </p>
+          <p>
+            My focus is on clean code, thoughtful UX, and measurable results.
+            No bloated templates, no surprises — just reliable work and clear
+            communication from kickoff to launch.
+          </p>
+          <ul class="about-list">
+            <li>✅ Pixel-perfect, responsive front-ends</li>
+            <li>✅ Performance &amp; SEO best practices baked in</li>
+            <li>✅ Clear timelines and transparent pricing</li>
+            <li>✅ Post-launch support &amp; maintenance</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Start a project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">What I do</p>
+          <h2 class="section-title">Services tailored to your needs</h2>
+          <p class="section-lead">From a single landing page to a full web app, I've got you covered.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card reveal">
+            <div class="card-icon">🎨</div>
+            <h3>Web Design</h3>
+            <p>Modern, on-brand interfaces designed in Figma with a focus on usability and conversion.</p>
+            <ul class="card-list">
+              <li>UI/UX design</li>
+              <li>Wireframes &amp; prototypes</li>
+              <li>Design systems</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">⚙️</div>
+            <h3>Web Development</h3>
+            <p>Hand-coded, blazing-fast websites and web apps built with modern frameworks.</p>
+            <ul class="card-list">
+              <li>React &amp; Next.js</li>
+              <li>Responsive layouts</li>
+              <li>API integrations</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🚀</div>
+            <h3>SEO &amp; Performance</h3>
+            <p>Technical optimization so your site ranks higher and loads in the blink of an eye.</p>
+            <ul class="card-list">
+              <li>Core Web Vitals</li>
+              <li>On-page SEO</li>
+              <li>Analytics setup</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🛠️</div>
+            <h3>Maintenance</h3>
+            <p>Ongoing care plans to keep your site secure, updated, and running smoothly.</p>
+            <ul class="card-list">
+              <li>Security updates</li>
+              <li>Content edits</li>
+              <li>Monitoring</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Portfolio -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Selected work</p>
+          <h2 class="section-title">Recent projects</h2>
+          <p class="section-lead">A few things I've designed and built lately.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web Apps</button>
+          <button class="filter" data-filter="landing">Landing Pages</button>
+          <button class="filter" data-filter="ecom">E-commerce</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project reveal" data-category="web">
+            <div class="project-thumb thumb-1"><span class="project-emoji">📊</span></div>
+            <div class="project-body">
+              <span class="project-tag">Web App</span>
+              <h3>Insightly Dashboard</h3>
+              <p>A real-time analytics dashboard with custom charts and role-based access.</p>
+              <div class="project-tech"><span>React</span><span>Node</span><span>D3.js</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="ecom">
+            <div class="project-thumb thumb-2"><span class="project-emoji">🛍️</span></div>
+            <div class="project-body">
+              <span class="project-tag">E-commerce</span>
+              <h3>Bloom &amp; Co Store</h3>
+              <p>A boutique online store with Stripe checkout and a custom CMS.</p>
+              <div class="project-tech"><span>Next.js</span><span>Stripe</span><span>Sanity</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="landing">
+            <div class="project-thumb thumb-3"><span class="project-emoji">🚀</span></div>
+            <div class="project-body">
+              <span class="project-tag">Landing Page</span>
+              <h3>LaunchKit SaaS</h3>
+              <p>High-converting product launch page with animations and A/B testing.</p>
+              <div class="project-tech"><span>HTML</span><span>GSAP</span><span>CSS</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="web">
+            <div class="project-thumb thumb-4"><span class="project-emoji">🏥</span></div>
+            <div class="project-body">
+              <span class="project-tag">Web App</span>
+              <h3>MediBook Portal</h3>
+              <p>A patient booking system with calendar sync and email reminders.</p>
+              <div class="project-tech"><span>React</span><span>Express</span><span>Mongo</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="ecom">
+            <div class="project-thumb thumb-5"><span class="project-emoji">👟</span></div>
+            <div class="project-body">
+              <span class="project-tag">E-commerce</span>
+              <h3>Stride Sneakers</h3>
+              <p>A bold sneaker shop with 3D product previews and wishlist features.</p>
+              <div class="project-tech"><span>Next.js</span><span>Three.js</span><span>Shopify</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="landing">
+            <div class="project-thumb thumb-6"><span class="project-emoji">🎧</span></div>
+            <div class="project-body">
+              <span class="project-tag">Landing Page</span>
+              <h3>Podwave Promo</h3>
+              <p>A sleek podcast landing page with audio previews and newsletter signup.</p>
+              <div class="project-tech"><span>HTML</span><span>JS</span><span>CSS</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Kind words</p>
+          <h2 class="section-title">What clients say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <figure class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Alex delivered our website ahead of schedule and it looks incredible. Our signups doubled in the first month."</blockquote>
+            <figcaption>
+              <span class="t-avatar">SM</span>
+              <span><strong>Sarah Mitchell</strong><small>Founder, LaunchKit</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Professional, communicative, and genuinely talented. The best freelancer we've worked with, hands down."</blockquote>
+            <figcaption>
+              <span class="t-avatar">JD</span>
+              <span><strong>James Doyle</strong><small>CEO, Bloom &amp; Co</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Our site is faster, prettier, and ranking higher than ever. Worth every penny. Highly recommend Alex!"</blockquote>
+            <figcaption>
+              <span class="t-avatar">PL</span>
+              <span><strong>Priya Lal</strong><small>Marketing Lead, Stride</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">Get in touch</p>
+          <h2 class="section-title">Let's build something great together</h2>
+          <p class="section-lead">
+            Have a project in mind? Fill out the form or reach out directly —
+            I usually reply within 24 hours.
+          </p>
+          <ul class="contact-list">
+            <li><span class="ci">✉️</span> <a href="mailto:hello@alexcarter.dev">hello@alexcarter.dev</a></li>
+            <li><span class="ci">📍</span> Remote · Working worldwide</li>
+            <li><span class="ci">🕒</span> Mon–Fri, 9am–6pm</li>
+          </ul>
+          <div class="socials">
+            <a href="#" aria-label="GitHub" class="social">GH</a>
+            <a href="#" aria-label="LinkedIn" class="social">in</a>
+            <a href="#" aria-label="Twitter" class="social">X</a>
+            <a href="#" aria-label="Dribbble" class="social">Dr</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Jane Doe" />
+              <span class="error" data-for="name"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="jane@company.com" />
+              <span class="error" data-for="email"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="budget">Project budget</label>
+            <select id="budget" name="budget">
+              <option value="">Select a range</option>
+              <option>Under $1,000</option>
+              <option>$1,000 – $5,000</option>
+              <option>$5,000 – $10,000</option>
+              <option>$10,000+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+            <span class="error" data-for="message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form-success" id="formSuccess" hidden>✅ Thanks! Your message has been sent. I'll be in touch soon.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">AC</span>
+        <span class="logo-text">Alex Carter</span>
+      </a>
+      <p class="footer-copy">© <span id="year"></span> Alex Carter. Crafted with care.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
